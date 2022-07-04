@@ -71,7 +71,7 @@ class MainForm : Form{
 		this.StartPosition = FormStartPosition.Manual;
 		this.Text = "TODO Viewer v20220519 - KazuProg";
 		this.TopMost = true;
-		this.WindowState = FormWindowState.Minimized;//ShotTODOの判定対策
+		this.WindowState = FormWindowState.Minimized;//ShowTODOの判定対策
 
 		this.webView.Location = new Point(0, 0);
 		this.Controls.Add(this.webView);
